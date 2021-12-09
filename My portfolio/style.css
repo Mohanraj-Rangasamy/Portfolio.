@@ -1,0 +1,93 @@
+.navbar{
+    background-color: rgb(161, 46, 61)! important;
+    border-bottom: 1px solid rgb(141, 40, 40);
+    box-shadow:0 0 1PX rgb(167, 124, 68);
+}
+.carousel{
+    height:600px;
+}
+.carousel-item img{
+    height:600px;
+}
+.my-image img{
+    width:100%;
+    height:400px;
+}
+.myview{
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    color: brown;
+}
+.about{
+    text-align: justify;
+    font-size: 12px;
+    color: rgb(49, 50, 54);
+    width:100%;
+}
+.col{
+    text-align: justify;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:50px;
+    font-weight: 800;
+    font-size: 20;
+    width:100%;
+}
+.table{
+    overflow-x: auto;
+    width:100%;
+}
+.my image img{
+ width:200px;
+ height:200px;
+ border-radius: 5px;
+ padding:0.5rem;
+ margin:0 auto;
+ }
+ .container1{
+     border: 1px solid black;
+     border-radius: 5px;
+     box-shadow:0 0 1px burlywood;
+     text-align: justify;
+     font-style: italic;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ .col5{
+     margin:0;
+     padding:0;
+ }
+ .My-icons{
+     font-size: 18px;
+     margin:0 0 0.2rem;
+ }
+ .My-farm{
+    font-size: 20px;
+    margin:0 0 0.1rem;
+    width: 100%;
+    border:black;
+ }
+ .footer{
+     font-size: 15px;
+     justify-content: space-between;
+     background-color:rgb(100, 99, 107) ;
+     text-align: justify;
+     width:100%;
+     margin:0.2rem;
+     padding:o 0.2rem;
+     text-decoration: none;
+     color:cornsilk
+ }
+  
+@media (max-width:600px){
+    carousel-item img{
+        height:300px;
+    } 
+    .my image{
+        margin:0 auto;
+    }
+    .container1{
+        margin:auto;
+        padding: 1rem;
+    }
+}
